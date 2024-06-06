@@ -37,3 +37,9 @@ print("nCH" in animal)  # True
 
 # Valid if the string not contains the substring
 print("nH" not in animal)  # True
+
+# Join each letter of word by comma
+print(','.join('abc'))  # a,b,c
+
+# Join each string element of array by comma
+print(','.join(['a', 'b', 'c']))  # a,b,c
