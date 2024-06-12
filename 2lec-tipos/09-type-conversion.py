@@ -23,3 +23,7 @@ print(bool("0"))  # True
 print(bool(" "))  # True
 print(bool(24))  # True
 print(bool([1]))  # True
+
+# list() -> convert value to list
+print(list("hola"))  # -> ['h','o','l','a']
+print(list(range(1, 3)))  # -> [1, 2]
