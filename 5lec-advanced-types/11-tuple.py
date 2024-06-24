@@ -19,6 +19,7 @@ print(menosNumeros)  # (1, 2, 3)
 primero, segundo, *otros = numeros
 print(primero, segundo, otros)  # 1 2 [3, 4, 5, 6]
 
+# you can iterate a tuple
 for n in numeros:
     print(n)
 
