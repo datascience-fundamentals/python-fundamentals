@@ -6,6 +6,7 @@ print(round(1.5))  # 2
 print(round(1.7656, 2))  # 1.77
 print(abs(-77))  # 77
 print(abs(55))  # 55
+print(pow(2, 2))  # 4
 
 # using math module
 

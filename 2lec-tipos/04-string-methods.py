@@ -43,3 +43,7 @@ print(','.join('abc'))  # a,b,c
 
 # Join each string element of array by comma
 print(','.join(['a', 'b', 'c']))  # a,b,c
+
+# count many times a letter appear in the string
+frase = "Hola Mundo"
+print(frase.count("o"))  # 2
