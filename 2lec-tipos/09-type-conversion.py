@@ -14,7 +14,8 @@ print(n2)  # 24.7
 str1 = str(24.7)
 print(str1)  # 124
 
-# bool() -> convert value to boolean
+# Acording to the python truth
+# when you use bool() function to convert value to boolean
 print(bool(""))  # False
 print(bool(0))  # False
 print(bool([]))  # False
