@@ -31,7 +31,7 @@ print(unionSet)  # {3, 4, 21, 5, 40, 30}
 intersecSet = numerosSet & agesSet
 print(intersecSet)  # {5}
 
-# The operator '-' returns only the elements from the first set collectio
+# The operator '-' returns only the elements from the first set collection
 # which doesn't exist in the second set collection
 differenceSet = numerosSet - agesSet
 print(differenceSet)  # {40, 21, 30}

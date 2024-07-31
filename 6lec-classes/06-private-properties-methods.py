@@ -15,6 +15,7 @@ class Perro:
         print("soy un metodo privado")
 
     def habla(self):
+        self.__private_method()
         print(f"{self.__nombre} dice: Guau!")
 
     @classmethod

@@ -5,11 +5,11 @@ class Perro:
         self.nombre = nombre
         self.edad = edad
 
-    # It's a instance method where seld references to the instance (perro1) for example
+    # This method is an instance member where self references to the instance (perro1) for example
     def instance_method(self):
         print("Soy un metodo de instancia")
 
-    # It's a class method where cls references to the class (Perro)
+    # This methos is a class member where cls references to the class (Perro)
     @classmethod
     def class_method(cls):
         print("Soy un metodo de clase")

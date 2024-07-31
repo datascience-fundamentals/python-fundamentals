@@ -1,9 +1,9 @@
 class Perro:
-    # It's a class property
+    # This property is a class member
     patas = 4
 
     def __init__(self, nombre, edad):
-        # They are instance properties
+        # Those properties are instance members
         self.nombre = nombre
         self.edad = edad
 
