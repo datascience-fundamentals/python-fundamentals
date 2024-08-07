@@ -16,6 +16,9 @@ class Animal:
 class Perro(Animal):
 
     # super().__init__ calls parent constructor
+    # By default python is responsable to decalre a constructor with all
+    # necesary properties which parent class needs. So, It's not necesary you
+    # declare the constructor __init__ unless you are going to add aditional parameters
     def __init__(self, nombre):
         super().__init__(nombre)
 
