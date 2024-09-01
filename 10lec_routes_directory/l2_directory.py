@@ -4,11 +4,11 @@ path = Path("10lec_routes_directory")
 # path.exists()  # If path exists
 # path.mkdir() # It creates an directory
 # path.rmdir() # It removes directory whereas direcoty is empty
-# path.rename("chanchito-feliz")  # it renames the directory
+# path.rename("chanchito-feliz")  # it renames the drectory path to the target path
 print(path.iterdir())  # It returns an generator object which is iterable
 # It searches all elements into the path which matches with pattern
 print(path.glob("*.py"))
-# It search all element into the path wich mates with pattern recursively
+# It search all element into the path wich matches with pattern recursively
 print(path.rglob("*.py"))
 
 archivos = [p for p in path.iterdir() if not p.is_dir()]
