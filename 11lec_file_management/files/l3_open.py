@@ -21,7 +21,8 @@ from io import open
 # print(texto)
 
 # with and seek
-# using with, its no longer required to use close method
+# using with, its no longer required to use close method, since
+# it executes __exit__ and __enter__ magic methods behind scenes
 # with open("files/hola-mundo.txt", "r") as archivo:
 #     print(archivo.readlines())
 #     # It comes back the pointer to the file's first position,
