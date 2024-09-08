@@ -7,6 +7,9 @@ class Model(ABC):
     @property
     @abstractmethod
     def tabla(self):
+        # The pass statement is used as a placeholder for future code.
+        # When the pass statement is execute, nothing happens, but you avoid getting
+        # an error when empty code is not allowed
         pass
 
     # You aways have to override abstract method since It is required
