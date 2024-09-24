@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "1977acb1ba9778abb66054090e2618a0a1f1759b1b3b32afd8a7d404ba18b4fb"
+            "sha256": "2648cab6b52adeaecd62326e5f5430c6b4d7d5d27e81d3f5dd94132a95be87d7"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -119,6 +119,14 @@
             ],
             "markers": "python_full_version >= '3.7.0'",
             "version": "==3.3.2"
+        },
+        "holamundoplayerrbardalp": {
+            "hashes": [
+                "sha256:81bd639730f45eeb7d9afb4d3ebc5fba1c4a14a74c9f552e825918031cbb91d3",
+                "sha256:f256608c11bf50457f9a50d8311a35b43d95c8f69c28aabececea597c961fa91"
+            ],
+            "index": "pypi",
+            "version": "==0.0.1"
         },
         "idna": {
             "hashes": [
