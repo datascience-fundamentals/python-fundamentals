@@ -7,6 +7,9 @@ name = "pypi"
 requests = "*"
 holamundoplayerrbardalp = "*"
 sendgrid = "*"
+twilio = "*"
+beautifulsoup4 = "*"
+openpyxl = "*"
 
 [dev-packages]
 
